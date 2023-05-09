@@ -2,8 +2,8 @@
 
 FROM eclipse-temurin:17-jdk-jammy
 
-RUN chmod u+x /bin/sh
-RUN chmod u+x .mvn
+#RUN chmod u+x /bin/sh
+RUN chmod u+x ./mvnw
 
 WORKDIR /app
 
