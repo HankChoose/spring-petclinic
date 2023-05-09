@@ -2,6 +2,9 @@
 
 FROM eclipse-temurin:17-jdk-jammy
 
+RUN chmod u+x /bin/sh
+RUN chmod u+x .mvn
+
 WORKDIR /app
 
 COPY .mvn/ .mvn
